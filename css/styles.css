@@ -11,6 +11,8 @@ body {
     background-color: #E5E5E5;
 }
 
+
+
 .navigation:hover, .navigation:focus {
     color: #2196F3;
 }
@@ -27,4 +29,16 @@ body {
 
 .team-member {
     background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
 }
