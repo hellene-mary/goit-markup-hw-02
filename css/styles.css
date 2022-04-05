@@ -1,10 +1,30 @@
 /* Основной цвет текста #212121
 Цвет выделения #2196F3
 Вспомогательный цвет текста #757575
-Белый цвет #FFFFFF */
+Белый цвет #FFFFFF 
+Цвет фона #E5E5E5*/
 
 
 body {
     font-family: Roboto, Tahoma, sans-serif;
     color: #212121;
+    background-color: #E5E5E5;
+}
+
+.navigation:hover, .navigation:focus {
+    color: #2196F3;
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-member {
+    background-color: #FFFFFF;
 }
