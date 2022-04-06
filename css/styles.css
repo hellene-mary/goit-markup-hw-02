@@ -5,6 +5,7 @@
     --text-color: #212121;
     --second-text-color: #757575;
     --color-button: #2196F3;
+    --color-accent:#2196F3;
 }
 
 body {
@@ -24,19 +25,17 @@ body {
 }
 
 .accent {
-    color: var(--color-button);
+    color: var(--color-accent);
 }
 
-.nav-item, .advantage-item, .foto-item, 
-.team-member, .footer-contacts-item, .contacts-item,
-.button-item, .portfolio-item  {
+.link  {
     list-style: none;
 }
 
 .nav-link:hover, .nav-link:focus, 
 .contacts-link:hover, .contacts-link:focus,
 .footer-contacts-link:hover, .footer-contacts-link:focus {
-    color: var(--color-button);
+    color: var(--color-accent);
 }
 
 .nav-link, .contacts-link {
@@ -76,7 +75,7 @@ body {
 .hero-button { 
     color: #FFFFFF;
     background-color: var(--color-button);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -173,7 +172,7 @@ body {
 .btn {
     color: var(--text-color);
     background-color: var(--second-bgc);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
