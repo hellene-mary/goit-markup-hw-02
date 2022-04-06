@@ -1,9 +1,9 @@
-/* Основной цвет текста #212121
+/* 
+Основной цвет текста #212121
 Цвет выделения #2196F3
 Вспомогательный цвет текста #757575
 Белый цвет #FFFFFF 
-Цвет фона #E5E5E5*/
-
+*/
 
 body {
     font-family: Roboto, Tahoma, sans-serif;
@@ -14,7 +14,6 @@ body {
 .logo {
     text-decoration: none;
     color: #000000;
-
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
