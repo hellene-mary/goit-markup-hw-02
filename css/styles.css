@@ -1,14 +1,16 @@
-/* 
-Основной цвет текста #212121
-Цвет выделения #2196F3
-Вспомогательный цвет текста #757575
-Белый цвет #FFFFFF 
-*/
+:root {
+    --basic-bgc: #FFFFFF;
+    --dark-bgc: #2F303A;
+    --second-bgc: #F5F4FA;
+    --text-color: #212121;
+    --second-text-color: #757575;
+    --color-button: #2196F3;
+}
 
 body {
     font-family: Roboto, Tahoma, sans-serif;
-    color: #212121;
-    background-color: #FFFFFF;
+    color: var(--text-color);
+    background-color: var(--basic-bgc);
 }
 
 .logo {
@@ -22,7 +24,7 @@ body {
 }
 
 .accent {
-    color: #2196F3;
+    color: var(--color-button);
 }
 
 .nav-item, .advantage-item, .foto-item, 
@@ -34,7 +36,7 @@ body {
 .nav-link:hover, .nav-link:focus, 
 .contacts-link:hover, .contacts-link:focus,
 .footer-contacts-link:hover, .footer-contacts-link:focus {
-    color: #2196F3;
+    color: var(--color-button);
 }
 
 .nav-link, .contacts-link {
@@ -42,7 +44,7 @@ body {
 }
 
 .nav-link {
-    color: #212121; 
+    color: var(--text-color); 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,7 +52,7 @@ body {
 }
 
 .contacts-link {
-    color: #757575;
+    color: var(--second-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -58,7 +60,7 @@ body {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--dark-bgc);
 }
 
 .hero-title {
@@ -73,7 +75,7 @@ body {
 
 .hero-button { 
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--color-button);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -99,7 +101,7 @@ body {
 }
 
 .advantage-text {
-    color: #757575;
+    color: var(--second-text-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -113,11 +115,11 @@ body {
 }
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--second-bgc);
 }
 
 .team-member {
-    background-color: #FFFFFF;
+    background-color: var(--basic-bgc);
 }
 
 .team-name {
@@ -129,7 +131,7 @@ body {
 }
 
 .team-position {
-    color: #757575;
+    color: var(--second-text-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -147,7 +149,7 @@ body {
 }
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--dark-bgc);
 }
 
 .address {
@@ -169,8 +171,8 @@ body {
 }
 
 .btn {
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--text-color);
+    background-color: var(--second-bgc);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -183,7 +185,7 @@ body {
 
 .btn:hover, .btn:focus {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--color-button);
 }
 
 .portfolio-top-text {
@@ -194,7 +196,7 @@ body {
 }
 
 .portfolio-bottom-text {
-    color: #757575;
+    color: var(--second-text-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
