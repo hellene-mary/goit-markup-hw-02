@@ -32,7 +32,8 @@ body {
 }
 
 .nav-link:hover, .nav-link:focus, 
-.contacts-link:hover, .contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus,
+.footer-contacts-link:hover, .footer-contacts-link:focus {
     color: #2196F3;
 }
 
