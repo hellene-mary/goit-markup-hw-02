@@ -82,6 +82,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 } 
 
 .portfolio-title, .advantage-title {
@@ -90,7 +91,6 @@ body {
 
 .advantage-heading {
     text-transform: uppercase;
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -99,14 +99,12 @@ body {
 
 .advantage-text {
     color: #757575;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .foto-title, .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -131,7 +129,6 @@ body {
 
 .team-position {
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -141,7 +138,6 @@ body {
 .footer-logo {
     text-decoration: none;
     color: #FFFFFF;
-    
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -181,6 +177,7 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .btn:hover, .btn:focus {
@@ -197,7 +194,6 @@ body {
 
 .portfolio-bottom-text {
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
